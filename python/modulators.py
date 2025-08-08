@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy import signal as sc
+# Not used here
+# from scipy import signal as sc
 
 # Параметры
 f_c = 10  # Частота несущей (Гц)
