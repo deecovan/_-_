@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy import signal
+from scipy import signal as sc
 
 # Параметры
 f_c = 10  # Частота несущей (Гц)
@@ -33,7 +33,7 @@ pm = A_c * np.sin(2 * np.pi * f_c * t + kp * message)
 
 
 # Отображение результатов
-plt.figure(figsize=(12, 8))
+plt.figure(figsize=(12, 5))
 
 plt.subplot(4, 1, 1)
 plt.plot(t, message)
